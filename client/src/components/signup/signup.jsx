@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import axios from 'axios';
-import { Avatar } from "@chakra-ui/react";
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 
@@ -77,7 +76,7 @@ const Signup = () => {
         transition={{ duration: 0.5 }}
       >
         <h2>Burger Express</h2>
-        <Avatar className="avatar" size="2xl" />
+        
 
         <form onSubmit={handleSubmit}>
           <div className="input-field">
